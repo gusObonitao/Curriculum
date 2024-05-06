@@ -1,0 +1,58 @@
+*{
+    background-color: rgb(215, 233, 236);
+}
+
+#header{
+    background-color:rgb(167, 204, 211);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#nameAndTitle{
+    font-family: "Merriweather", serif;
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+#nameAndTilte, h1, h2 {
+    margin: 0;
+}
+#contact {
+    list-style-type: none;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px;
+    margin-left: 200px;
+}
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.card h3 {
+    font-family: "Merriweather", serif;
+    text-transform: uppercase;
+}
+.card {
+    font-family: Nunito;
+    padding: 20px;
+    
+}
+#content .card #about p {
+    text-align: justify;
+}
+i {
+    width: 30px;
+    height: 30px;
+    color: rgb(167, 204, 211);
+
+}
+#NoIcon{
+    list-style-type: none;  
+}
